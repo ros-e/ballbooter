@@ -1044,12 +1044,82 @@ namespace LOIC
 			}
 		}
 
-		/// <summary>
-		/// Handles the disableHive CheckedChanged event.
-		/// </summary>
-		/// <param name="sender">Sender.</param>
-		/// <param name="e">EventArgs.</param>
-		private void disableHive_CheckedChanged(object sender, EventArgs e)
+        private void label25_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelOLStatus_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textOLTime_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtIRCchannel_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label27_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label28_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void chkbOLUp_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtIRCport_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label26_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtIRCserver_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textOLServer_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbDownloading_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pBanner_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        /// <summary>
+        /// Handles the disableHive CheckedChanged event.
+        /// </summary>
+        /// <param name="sender">Sender.</param>
+        /// <param name="e">EventArgs.</param>
+        private void disableHive_CheckedChanged(object sender, EventArgs e)
 		{
 			if (disableHive.Checked)
 			{

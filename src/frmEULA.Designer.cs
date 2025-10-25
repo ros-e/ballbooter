@@ -33,11 +33,11 @@ namespace LOIC
             this.btnDecline = new System.Windows.Forms.Button();
             this.chkEULA = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
-            //
+            // 
             // txtEULA
-            //
-            this.txtEULA.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            // 
+            this.txtEULA.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtEULA.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtEULA.Location = new System.Drawing.Point(1, 0);
@@ -45,9 +45,9 @@ namespace LOIC
             this.txtEULA.Size = new System.Drawing.Size(563, 510);
             this.txtEULA.TabIndex = 0;
             this.txtEULA.Text = "";
-            //
+            // 
             // btnAccept
-            //
+            // 
             this.btnAccept.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnAccept.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.btnAccept.Enabled = false;
@@ -57,9 +57,9 @@ namespace LOIC
             this.btnAccept.TabIndex = 1;
             this.btnAccept.Text = "&Accept";
             this.btnAccept.UseVisualStyleBackColor = true;
-            //
+            // 
             // btnDecline
-            //
+            // 
             this.btnDecline.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnDecline.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnDecline.Location = new System.Drawing.Point(481, 515);
@@ -68,9 +68,9 @@ namespace LOIC
             this.btnDecline.TabIndex = 2;
             this.btnDecline.Text = "&Decline";
             this.btnDecline.UseVisualStyleBackColor = true;
-            //
+            // 
             // chkEULA
-            //
+            // 
             this.chkEULA.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.chkEULA.AutoSize = true;
             this.chkEULA.Location = new System.Drawing.Point(12, 519);
@@ -80,9 +80,9 @@ namespace LOIC
             this.chkEULA.Text = "I have read and &understood the terms of this agreement";
             this.chkEULA.UseVisualStyleBackColor = true;
             this.chkEULA.CheckedChanged += new System.EventHandler(this.chkEULA_CheckedChanged);
-            //
+            // 
             // frmEULA
-            //
+            // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(564, 542);
@@ -94,7 +94,8 @@ namespace LOIC
             this.MinimumSize = new System.Drawing.Size(500, 480);
             this.Name = "frmEULA";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Newfag\'s Low Orbit Ion Cannon End User License Agreement (EULA)";
+            this.Text = "Ballbooter (EULA)";
+            this.Load += new System.EventHandler(this.frmEULA_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

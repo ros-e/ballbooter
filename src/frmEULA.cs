@@ -29,5 +29,10 @@ namespace LOIC
 		{
 			btnAccept.Enabled = chkEULA.Checked;
 		}
-	}
+
+        private void frmEULA_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
